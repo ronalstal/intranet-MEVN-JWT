@@ -1,0 +1,38 @@
+{
+  "name": "intranet-mevn-jwt",
+  "version": "1.0.0",
+  "description": "Intranet scaffold MEVN stack and MongoDB, JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "as": "nodemon ./auth-server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronalstal/intranet-MEVN-JWT.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "vue",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "ronalstal@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronalstal/intranet-MEVN-JWT/issues"
+  },
+  "homepage": "https://github.com/ronalstal/intranet-MEVN-JWT#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
